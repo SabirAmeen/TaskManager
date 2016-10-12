@@ -2,9 +2,19 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	box-sizing:border-box;
 }
 .list{
 	border:1px solid black;
 	flex:1;
 	margin:1px;
+	text-align:center;
+	box-sizing: border-box;
+}
+.list h3{
+	border-bottom: 1px solid black;
+}
+.card{
+	border: 1px solid black;
+	margin:5px 2px;
 }
