@@ -1,0 +1,10 @@
+.tasks{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.list{
+	border:1px solid black;
+	flex:1;
+	margin:1px;
+}
