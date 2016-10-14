@@ -18,14 +18,17 @@
 	margin:0;
 }
 .card{
-	border: 1px solid black;
-	margin:5px 2px;
+	margin:10px 2px;
 	width: 95%;
 	height:140px;
 }
+.card-list{
+	height:424px;
+	overflow: hidden;
+}
+
 .cards-wrap{
 	width:70%;
-	height:100px;
 	display: inline-block;
 }
 .card-details{
@@ -41,9 +44,4 @@
 }
 .user-img{
 	width:100%;
-}
-ul{
-	list-style:  none;
-	margin: 0;
-	padding: 0;
 }
